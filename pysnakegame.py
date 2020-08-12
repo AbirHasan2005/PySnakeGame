@@ -116,7 +116,7 @@ class game():
             txtrect.topleft =(600,150)
             self.screen.blit(txts,txtrect)
             pg.display.update()
-            self.make_button((153,300,100,50),'Restart', [(255,255,255),(150,150,150)], action = lambda:restart())
+            self.make_button((153,300,220,50),'Back to Main Page', [(255,0,255),(150,0,150)], action = lambda:restart())
             if self.hover ==True:
                 click = pg.mouse.get_pressed()
                 if click[0] == 1:
@@ -295,6 +295,7 @@ class startmenu():
             self.make_text(300, 100, 'Telegram Group: http://t.me/linux_repo', color = (255,255,255), size = 20, a = True)
             self.make_text(312, 130, 'GitHub: https://github.com/AbirHasan2005', color = (255,255,255), size = 20, a = True)
             self.make_text(295, 160, 'Feedback & Help on my Telegram Group.', color = (255,255,255), size = 20, a = True)
+            self.make_text(348, 190, 'Instagram: https://instagram.com/AbirHasan2005', color = (255,255,255), size = 20, a = True)
             for event in pg.event.get():
                 if event.type == pg.QUIT:
                     sys.exit()
