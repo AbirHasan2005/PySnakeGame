@@ -2,7 +2,7 @@
 This is a python3 based Snake Game. Coded by @AbirHasan2005.
 
 ### If you didn't installed Python3 and PIP3 in Windows than download the EXE file from Releases:
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AbirHasan2005/PySnakeGame)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/AbirHasan2005/PySnakeGame)](https://github.com/AbirHasan2005/PySnakeGame/releases)
 
 <a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
